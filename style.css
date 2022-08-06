@@ -1,0 +1,21 @@
+.carousel-img-1{
+    background-image: linear-gradient(#00000091,#00000091,#00000091,#00000091),url(./assets/images/cover/cover-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height:100vh;
+}
+.carousel-img-2{
+    background-image: linear-gradient(#00000091,#00000091,#00000091,#00000091),url(./assets/images/cover/cover-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height:100vh;
+}
+.carousel-img-3{
+    background-image: linear-gradient(#00000091,#00000091,#00000091,#00000091),url(./assets/images/cover/cover-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height:100vh;
+}
