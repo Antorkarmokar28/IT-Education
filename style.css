@@ -19,3 +19,21 @@
     background-position: center;
     height:100vh;
 }
+@media screen and (max-width:576px) {
+    .thumbnail{
+        width:100%;
+    }
+    .thumbnail img{
+        width: 100%;
+    }
+}
+@media screen and (max-width:576px){
+    .hide-card{
+        display: none;
+    }
+}
+/* @media screen  and (min-width:577px) {
+    .hide-card{
+        display: none;
+    }
+} */
