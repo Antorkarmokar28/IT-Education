@@ -63,3 +63,13 @@ body{
         text-align: center;
     }
 }
+@media screen and (max-width:576px){
+    .card-thumbnail img{
+        width: 100%;
+    }
+}
+@media screen and (min-width:577px){
+    .card-thumbnail img{
+        width: 100%;
+    }
+}
