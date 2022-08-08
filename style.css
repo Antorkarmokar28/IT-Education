@@ -31,7 +31,7 @@ body{
         width:100%;
     }
     .thumbnail img{
-        width: 100%;
+        width: 98%;
     }
 }
 @media screen and (max-width:576px){
@@ -42,4 +42,24 @@ body{
 /* elearning section custom css */
 .bg-box{
     background:#f4fafd;
+}
+/* ready to join section custom css */
+.join-bg{
+    background-color: #0d6efd;
+}
+.join-inner > p{
+    font-size: 12px;
+}
+.join-btn{
+    background-color: #f4fafd;
+    color: #0d6efd;
+}
+.join-btn:hover{
+    background-color: #f4fafd;
+    color: #0d6efd;
+}
+@media screen and (max-width:576px){
+    .join-inner{
+        text-align: center;
+    }
 }
