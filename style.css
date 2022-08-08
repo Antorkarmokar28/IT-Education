@@ -1,3 +1,9 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&family=Oswald:wght@200;400;500&family=Poppins:ital,wght@0,300;0,400;1,500&family=Roboto:ital,wght@0,300;0,400;1,500&family=Ubuntu:ital,wght@0,300;0,400;0,500;1,700&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+}
+/* slider img */
 .carousel-img-1{
     background-image: linear-gradient(#00000091,#00000091,#00000091,#00000091),url(./assets/images/cover/cover-1.png);
     background-repeat: no-repeat;
@@ -19,6 +25,7 @@
     background-position: center;
     height:100vh;
 }
+/* course card */
 @media screen and (max-width:576px) {
     .thumbnail{
         width:100%;
@@ -32,8 +39,7 @@
         display: none;
     }
 }
-/* @media screen  and (min-width:577px) {
-    .hide-card{
-        display: none;
-    }
-} */
+/* elearning section custom css */
+.bg-box{
+    background:#f4fafd;
+}
