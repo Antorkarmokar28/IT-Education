@@ -68,8 +68,10 @@ body{
         width: 100%;
     }
 }
-@media screen and (min-width:577px){
-    .card-thumbnail img{
-        width: 100%;
-    }
+/* some student feedback section custom css */
+.star-color{
+    color: #ffa707f2;
+}
+.bg-btn{
+    background-color:#0d6efd;
 }
