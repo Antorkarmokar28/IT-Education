@@ -27,18 +27,15 @@ body{
 }
 /* course card */
 @media screen and (max-width:576px) {
-    .thumbnail{
-        width:100%;
-    }
     .thumbnail img{
         width: 98%;
     }
 }
-@media screen and (max-width:576px){
+/* @media screen and (max-width:576px){
     .hide-card{
         display: none;
     }
-}
+} */
 /* elearning section custom css */
 .bg-box{
     background:#f4fafd;
@@ -75,13 +72,15 @@ body{
 .bg-btn{
     background-color:#0d6efd;
 }
-/* trusted company custom css */
-@media screen and (max-width:576px){
-    .trusted{
-        display: none;
-    }
-}
 /* footer custom css */
 .footer-bg{
     background-color: rgba(0, 0, 0, 0.814);
+}
+.condition-link{
+    text-decoration:none;
+}
+.social-link-inner > a{
+    text-decoration: none;
+    color: #f4fafd;
+    margin: 0 10px;
 }
